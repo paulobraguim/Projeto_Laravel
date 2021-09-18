@@ -17,14 +17,15 @@ use App\Http\Controllers\ContatoController;
 */
 
 Route::get('/', [PrincipalController::class, 'principal']);
-
 Route::get('/sobre-nos', [SobreNosController::class, 'sobreNos']);
-
 Route::get('/contato', [ContatoController::class, 'contato']);
+Route::get('/login', function(){return 'Login';});
 
-Route::get('/contato/{nome}/{idade?}', function(string $nome, int $idade = null){
-    echo "Nome: " . $nome . "<hr>";
-    if($idade > 0) {
-        echo "Idade: " . $idade;
-    }    
+/**
+ * Agrupamento de Rotas
+ */
+Route::prefix('/adm')->group(function(){
+    Route::get('/clientes', function(){return 'Clientes';});
+    Route::get('/fornecedores', function(){return 'Fornecedores';});
+    Route::get('/produtos', function(){return 'Produtos';});
 });
