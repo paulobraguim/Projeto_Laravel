@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PrincipalController;
 use App\Http\Controllers\SobreNosController;
 use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\FornecedorController;
 use App\Http\Controllers\TesteController;
 
 /*
@@ -27,7 +28,7 @@ Route::get('/login', function(){return 'Login';})->name('site.login');
  */
 Route::prefix('/adm')->group(function(){
     Route::get('/clientes', function(){return 'Clientes';})->name('adm.clientes');
-    Route::get('/fornecedores', function(){return 'Fornecedores';})->name('adm.fornecedores');
+    Route::get('/fornecedores', [FornecedorController::class, 'index'])->name('adm.fornecedores');
     Route::get('/produtos', function(){return 'Produtos';})->name('adm.produtos');
 });
 
