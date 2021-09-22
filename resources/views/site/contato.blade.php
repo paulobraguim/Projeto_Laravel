@@ -78,6 +78,83 @@
             font-size: 15px;
         }
 
+        .img-edit{
+            width: 450px;
+            height: 300px;
+        }
+
+        label{
+            font-size: 17px;
+            font-weight: bold;
+            color: rgb(31, 31, 31);
+        }
+
+        input[type=text]{
+            border: 1px solid #2908a1;
+            border-radius: 5px;
+            color: rgb(112, 112, 112);
+        }
+
+        input[type=text]:hover{
+            border: 1.5px solid #2908a1;
+            box-shadow: 4px 5px 5px #2908a1;            
+        }
+
+        input[type=text]:focus{
+            outline: none !important;
+            border: 1.5px solid #2908a1;
+            box-shadow: 4px 5px 5px #2908a1;            
+        }
+
+        input[type=email]{
+            border: 1px solid #2908a1;
+            border-radius: 5px;
+            color: rgb(112, 112, 112);
+        }
+
+        input[type=email]:hover{
+            border: 1.5px solid #2908a1;
+            box-shadow: 4px 5px 5px #2908a1;            
+        }
+
+        input[type=email]:focus{
+            outline: none !important;
+            border: 1.5px solid #2908a1;
+            box-shadow: 4px 5px 5px #2908a1;            
+        }
+
+        .custom{
+            border: 1px solid #2908a1;
+            border-radius: 5px;
+            color: rgb(112, 112, 112);
+        }
+
+        .custom:hover{
+            border: 1.5px solid #2908a1;
+            box-shadow: 4px 5px 5px #2908a1;            
+        }
+
+        .custom:focus{
+            outline: none !important;
+            border: 1.5px solid #2908a1;
+            box-shadow: 4px 5px 5px #2908a1;            
+        }
+
+        .btn-custom{
+            background: #2908a1;
+            color: #eed812;
+            border: none;
+            width: 90px;
+            font-size: 18px;
+        }
+
+        .btn-custom:hover{
+            background: #340cc4;
+            font-weight: bold;
+            color: #eed812;
+        }
+
+
         footer{
             background-color: #2908a1;
             height: 250px;
@@ -155,7 +232,7 @@
                     <div class="row">
                         <div class="mb-3">
                             <label for="selectContato" class="form-label">Motivo</label>
-                            <select class="form-select" id="selectContato" aria-label="Default select example">
+                            <select class="form-select custom" id="selectContato" aria-label="Default select example">
                                 <option selected>Qual o motivo do contato? </option>
                                 <option value="1">Reclamação</option>
                                 <option value="2">Sugestão</option>
@@ -167,13 +244,13 @@
                     <div class="row">
                         <div class="mb-3">
                             <label for="mensagem" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>                              
+                            <textarea class="form-control custom" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>                              
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="mb-3">
-                            <button type="button" class="btn btn-primary">Enviar</button>
+                            <button type="button" class="btn btn-primary btn-custom">Enviar</button>
                         </div>
                     </div>
                 </div>
