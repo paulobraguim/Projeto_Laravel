@@ -57,7 +57,7 @@
             <div class="col-md-12">
                 <p>Desenvolvido por Paulo Henrique</p>
                 @php
-                    echo "<p>Todos os direitos reservados. "  . date('d/m/Y') . "</p>"; 
+                    echo "<p>Todos os direitos reservados. "  . date('Y') . "</p>"; 
                 @endphp
             </div>
         </div>

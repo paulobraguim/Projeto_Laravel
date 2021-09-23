@@ -14,7 +14,8 @@
 
         <div class="row">
             <div class="col-md-12">
-                <form>
+                <form action="{{ route('site.contato') }}" method="POST">
+                    @csrf
                     <div class="form-group">
                         <label for="inputNome">Nome</label>
                         <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Digite seu nome">                        
@@ -33,7 +34,7 @@
 
                     <div class="form-group">
                         <label for="selectContato" class="form-label">Motivo</label>
-                        <select class="form-select custom" id="selectContato" aria-label="Default select example">
+                        <select class="form-select custom" id="selectContato" name="motivo_contato" aria-label="Default select example">
                             <option selected>Qual o motivo do contato? </option>
                             <option value="1">Reclamação</option>
                             <option value="2">Sugestão</option>
@@ -59,7 +60,7 @@
             <div class="col-md-12">
                 <p>Desenvolvido por Paulo Henrique</p>
                 @php
-                    echo "<p>Todos os direitos reservados. "  . date('d/m/Y') . "</p>"; 
+                    echo "<p>Todos os direitos reservados. "  . date('Y') . "</p>"; 
                 @endphp
             </div>
         </div>
