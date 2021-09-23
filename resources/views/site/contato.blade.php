@@ -6,39 +6,32 @@
 <main>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 row-edit">
+            <div class="col-md-12 row-edit">
                 <h3>Página de Contato</h3><hr>
                 <p>Preencha o formulário para entrar em contato conosco.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magni non, corporis, 
-                    eaque debitis animi, illum ratione placeat cum facere vero! Odio inventore eligendi 
-                    provident recusandae in repudiandae. Molestiae, assumenda!
-                </p>
             </div>
+        </div>
 
-            <div class="col-md-4 row-edit-form">
-                <div class="row">
-                    <div class="mb-3">
-                        <label for="inputNome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome">                            
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputNome">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Digite seu nome">                        
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="mb-3">
-                        <label for="inputTelefone" class="form-label">Telefone</label>
-                        <input type="text" class="form-control" id="inputTelefone" placeholder="Digite seu telefone">                            
+                    <div class="form-group">
+                        <label for="inputTelefone">Telefone</label>
+                        <input type="text" class="form-control" id="inputTelefone" name="telefone" placeholder="Digite seu telefone">                        
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="mb-3">
-                        <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+                    <div class="form-group">
+                      <label for="inputEmail">E-mail</label>
+                      <input type="email" class="form-control" id="inputEmail" name="email" aria-describedby="emailHelp" placeholder="email@example.com">
+                      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="mb-3">
+                    <div class="form-group">
                         <label for="selectContato" class="form-label">Motivo</label>
                         <select class="form-select custom" id="selectContato" aria-label="Default select example">
                             <option selected>Qual o motivo do contato? </option>
@@ -47,22 +40,16 @@
                             <option value="3">Elogio</option>
                         </select>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="mb-3">
+                    <div class="form-group">
                         <label for="mensagem" class="form-label">Mensagem</label>
-                        <textarea class="form-control custom" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>                              
+                        <textarea class="form-control custom" id="mensagem" name="mesagem" rows="3" placeholder="Digite sua mensagem"></textarea>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="mb-3">
-                        <button type="button" class="btn btn-primary btn-custom">Enviar</button>
-                    </div>
-                </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-custom">Enviar</button>
+                </form>
             </div>
-        </div>
+        </div>            
     </div>
 </main>
 

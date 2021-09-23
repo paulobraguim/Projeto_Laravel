@@ -61,6 +61,8 @@ header, .navbar{
 .row-edit-form{            
     margin-top: 40px;
     padding: 5px;
+    width: 700px;
+    height: 30px;
 }
 
 .row-edit p{
@@ -136,14 +138,18 @@ input[type=email]:focus{
     border: none;
     width: 90px;
     font-size: 18px;
+    margin-top: 15px;
 }
 
-.btn-custom:hover{
+.btn-custom:hover{    
     background: #340cc4;
     font-weight: bold;
     color: #eed812;
 }
 
+.form-group{
+    margin-top: 10px;
+}
 
 footer{
     background-color: #2908a1;
