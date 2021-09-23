@@ -2,7 +2,7 @@
 
 @section('titulo', 'Página Home')
 
-@section('conteudo') 
+@section('conteudo')
 <main>
     <div class="container">
         <div class="row row-edit">

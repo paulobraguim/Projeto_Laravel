@@ -2,7 +2,7 @@
 
 @section('titulo', 'Página de Contato')
 
-@section('conteudo') 
+@section('conteudo')
 <main>
     <div class="container">
         <div class="row">
