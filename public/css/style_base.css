@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
+body{
+    font-family: 'Roboto';
+}
+
 .container{
     padding: 70px 0;
 }
@@ -68,6 +72,21 @@ header, .navbar{
 .row-edit p{
     font-weight: 300;
     font-size: 15px;
+}
+
+.row-color-blue{
+    background-color: rgb(14, 47, 90);
+    color: azure;
+    height: 90px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.row-form-home{
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 15px;
 }
 
 .img-edit{

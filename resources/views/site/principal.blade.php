@@ -29,20 +29,22 @@
             <div class="col-6">
                 <img src="{{ asset('img/programacao-3.jpg') }}" class="img-fluid img-edit" alt="Responsive image">
             </div>
-        </div>
+        </div>               
     </div>
-</main>
 
-<footer>
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row row-color-blue">
             <div class="col-md-12">
-                <p>Desenvolvido por Paulo Henrique</p>
-                @php
-                    echo "<p>Todos os direitos reservados. "  . date('Y') . "</p>"; 
-                @endphp
+                <h4>Entre em contato conosco.</h4>
+            </div>            
+        </div>
+
+        <div class="row row-form-home">
+            <div class="col-md-12">
+                @component('site.layouts._components.form_contato')                    
+                @endcomponent
             </div>
         </div>
-    </div>
-</footer>
+    </div> 
+</main>
 @endsection
