@@ -13,14 +13,10 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-<<<<<<< HEAD
-                @component('site.layouts._components.form_contato')                    
-=======
+            <div class="col-md-12">                
                 @component('site.layouts._components.form_contato')  
                     <p style="text-align: center">Analisaremos sua mensagem e retornaremos o mais breve possível.</p>
-                    <p style="text-align: center">Nosso tempo médio de reposta é de 48h.</p>                  
->>>>>>> Projeto Laravel
+                    <p style="text-align: center">Nosso tempo médio de reposta é de 48h.</p> 
                 @endcomponent
             </div>
         </div>            

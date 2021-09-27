@@ -41,11 +41,7 @@
 
         <div class="row row-form-home">
             <div class="col-md-12">
-<<<<<<< HEAD
-                @component('site.layouts._components.form_contato')                    
-=======
-                @component('site.layouts._components.form_contato'])                    
->>>>>>> Projeto Laravel
+                @component('site.layouts._components.form_contato') 
                 @endcomponent
             </div>
         </div>

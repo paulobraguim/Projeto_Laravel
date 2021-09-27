@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 {{ $slot }}
->>>>>>> Projeto Laravel
 <form action="{{ route('site.contato') }}" method="POST">
     @csrf
     <div class="form-group">
