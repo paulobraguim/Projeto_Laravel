@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body{
+    font-family: 'Roboto';
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;;
+}
+
+/* NAV */
+header, .navbar{
+    background-color: #2908a1;
+    font-family: 'Roboto';
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#navbar-links{
+    margin-right: 60px;    
+}
+
+#navbar-links a{
+    color: #fff;
+    text-transform: uppercase;    
+}
+
+#navbar-links a:hover{
+    color: #eed812;
+    text-transform: 3s;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+.row-edit{
+    text-align: center;            
+    margin-top: 40px;
+}
+
+.row-edit-form{            
+    margin-top: 40px;
+    padding: 5px;
+    width: 700px;
+    height: 30px;
+}
+
+.row-edit p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.row-color-blue{
+    background-color: rgb(14, 47, 90);
+    color: azure;
+    height: 90px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.row-form-home{
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+.img-edit{
+    width: 450px;
+    height: 300px;
+}
+
+label{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+}
+
+input[type=text]{
+    border: 1px solid #2908a1;
+    border-radius: 5px;
+    color: rgb(112, 112, 112);
+}
+
+input[type=text]:hover{
+    border: 1.5px solid #2908a1;
+    box-shadow: 4px 5px 5px #2908a1;            
+}
+
+input[type=text]:focus{
+    outline: none !important;
+    border: 1.5px solid #2908a1;
+    box-shadow: 4px 5px 5px #2908a1;            
+}
+
+input[type=email]{
+    border: 1px solid #2908a1;
+    border-radius: 5px;
+    color: rgb(112, 112, 112);
+}
+
+input[type=email]:hover{
+    border: 1.5px solid #2908a1;
+    box-shadow: 4px 5px 5px #2908a1;            
+}
+
+input[type=email]:focus{
+    outline: none !important;
+    border: 1.5px solid #2908a1;
+    box-shadow: 4px 5px 5px #2908a1;            
+}
+
+.custom{
+    border: 1px solid #2908a1;
+    border-radius: 5px;
+    color: rgb(112, 112, 112);
+}
+
+.custom:hover{
+    border: 1.5px solid #2908a1;
+    box-shadow: 4px 5px 5px #2908a1;            
+}
+
+.custom:focus{
+    outline: none !important;
+    border: 1.5px solid #2908a1;
+    box-shadow: 4px 5px 5px #2908a1;            
+}
+
+.btn-custom{
+    background: #2908a1;
+    color: #eed812;
+    border: none;
+    width: 90px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.btn-custom:hover{    
+    background: #340cc4;
+    font-weight: bold;
+    color: #eed812;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #2908a1;
+    height: 250px;
+    width: auto;            
+    font-weight: 300;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 17px;;
+}
